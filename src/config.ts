@@ -68,6 +68,7 @@ export default {
       '--ignore-certificate-errors',
       '--ignore-ssl-errors',
       '--ignore-certificate-errors-spki-list',
+      '--disable-setuid-sandbox',
     ],
     /**
      * Example of configuring the linkPreview generator
