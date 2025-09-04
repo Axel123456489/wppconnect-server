@@ -20,7 +20,7 @@ nixPkgs = [
   "cairo",
   "freetype",
   "fontconfig",
-  "alsaLib",
+  "alsa-lib",
   "libX11",
   "libXcomposite",
   "libXcursor",
@@ -44,3 +44,4 @@ cmds = ["npm run build"]
 
 [start]
 cmd = "npm run start"
+
