@@ -1,7 +1,7 @@
 [phases.setup]
 nixPkgs = [
   "nodejs_18",
-  "google-chrome",
+  "chromium",
   "wget",
   "curl",
   "git",
@@ -10,7 +10,6 @@ nixPkgs = [
   "nss",
   "nspr",
   "atk",
-  "atkmm",
   "cups",
   "dbus",
   "expat",
@@ -33,7 +32,7 @@ nixPkgs = [
   "mesa",
   "libdrm",
   "libgbm",
-  "xorg.libxkbcommon",
+  "libxkbcommon"
 ]
 
 [phases.install]
