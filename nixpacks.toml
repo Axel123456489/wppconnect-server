@@ -1,0 +1,29 @@
+[phases.setup]
+nixPkgs = [
+  "nodejs_18",
+  "google-chrome",
+  "chromium",
+  "libxshmfence",
+  "libnss",
+  "libnspr",
+  "libatk",
+  "libatkmm",
+  "libdrm",
+  "libgbm",
+  "libxcomposite",
+  "libxdamage",
+  "libxfixes",
+  "libxrandr",
+  "libasound2",
+  "freetype",
+  "fontconfig"
+]
+
+[phases.install]
+cmds = ["npm install"]
+
+[phases.build]
+cmds = ["npm run build"]
+
+[start]
+cmd = "npm run start"
